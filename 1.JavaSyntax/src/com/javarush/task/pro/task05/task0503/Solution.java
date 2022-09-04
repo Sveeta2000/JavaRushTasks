@@ -1,8 +1,8 @@
 package com.javarush.task.pro.task05.task0503;
 
-/* 
-Работаем с элементами массива
-*/
+/**
+ * Работаем с элементами массива
+ */
 
 public class Solution {
 
@@ -14,7 +14,7 @@ public class Solution {
                 array[i] = -array[i];
             }
         }
-        //напишите тут ваш код
+
         System.out.println(array[0]);
         System.out.println(array[1]);
         System.out.println(array[2]);
