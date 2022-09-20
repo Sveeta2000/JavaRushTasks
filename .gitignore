@@ -9,9 +9,11 @@ target/
 *.iws
 *.jrtc
 *.class
+*.info
 *.properties
 *.jar
 /out/
+/lib/*
 /JavaRushPlugin.properties
 /Instruction.png
 /out.log
