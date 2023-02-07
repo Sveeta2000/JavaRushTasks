@@ -1,4 +1,4 @@
-package com.training.RemoveDuplicatesFromSortedArray;
+package com.training.removeDuplicatesFromSortedArray;
 
 import java.util.Set;
 import java.util.TreeSet;

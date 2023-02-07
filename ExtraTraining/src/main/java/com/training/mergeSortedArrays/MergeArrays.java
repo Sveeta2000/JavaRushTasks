@@ -1,4 +1,4 @@
-package com.training.MergeSortedArrays;
+package com.training.mergeSortedArrays;
 
 import java.util.Arrays;
 
