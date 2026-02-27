@@ -1,0 +1,21 @@
+package com.training.array;
+
+/**
+ * Given a binary array nums, return the maximum number of consecutive 1's in the array.
+ */
+public class MaxConsecutiveOnes {
+
+    public int findMaxConsecutiveOnes(int[] nums) {
+        int max = 0;
+        int currMax = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 1) {
+                currMax = currMax + 1;
+                max = Math.max(max, currMax);
+            } else {
+                currMax = 0;
+            }
+        }
+        return max;
+    }
+}

@@ -18,7 +18,7 @@
     <modules>
         <module>ExtraTraining</module>
         <module>TheoryJava</module>
-        <module>4.JavaCollections</module>
+<!--        <module>4.JavaCollections</module>-->
     </modules>
 
     <dependencies>
